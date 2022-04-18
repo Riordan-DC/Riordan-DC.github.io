@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I am riordan.
-I like NLP, SLAM, graphics, robots.
+I write about computer science, computer graphics, machine learning, and game development. 
