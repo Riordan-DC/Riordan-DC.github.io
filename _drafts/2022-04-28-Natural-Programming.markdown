@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Natural Programming"
+date:   2022-04-28 10:05:00 +1000
+categories: nlp, programming
+---
+
+## Natural Programming
+
+The focus of my research lies at the intersection of Natural Language Programming (NLP) and robotics. It is a small but quickly growing field. Where I study, at QUT, 
+robotics research is concerned with fine motor control tasks like grasping, packing, walking, and other fine verbs. Control is a wide word
+and encompasses a heirarchy of control. At the foundation of the control pyramid are fine motor controls. Things we as humans do abscent mindedly
+but we train every second. As we move towards the tip of the pyramid we find programs of lower control tasks. The ascent of the pyramid
+measures: 
+
+* Infrequency of the task, and therefore how often we can learn from it. 
+* The conscienceness or awareness required to complete the task.
+* My interest in it.
+
+I am primarily concerned with high level planning. Controlling a system using as many verbs in the pyramid. This area I want to call
+Natural programming. This is not original and the concept of Natural Language Programming already exists (confusingly also called NLP).
+I suppose my interest is in the missing information inherent to all natural communication. 
+
+ It is a level of abstract planning that we as humans do all the time when we act. When carrying out a task as described
+to us. To emulate this ability in machines requires understanding of natural language and an ability to translate that language to programming.
+Some(citation needed) have begun to to use large language models to perform tasks by describing the program in its prompt. So called prompt engineering
+is an inconsistant method for coercing a large neural network to produce impressive results and is a promising step towards a more mature system of research.
+I believe Natural programming will operate as a symbolic algebra with learnt representations that will give us the ability to control any machine with the 
+same programming humans use. 
+
+### Reinforcement Learning Policy Gradient
+RL Policy Gradient methods struggle the higher up the heirarchy of control. 
+* Compounding dynamics
+* Partial observability
+* Discontinuous optimisation problems that reduce gradient descent methods to random initalisation tasks.
+	Additionally, policy gradients methods WILL find some minima regardless of if it correctly aligns with
+	your objective function. Perhaps your loss is misaligned with your goals or more common your training data.
+	The solution to these issues is not to engineer the loss function or the sanatise the training data, both of which
+	make your model more rigid. The solution is to optimise your own algorithm before adding optimisation methods.
+	The real success we have seen in RL is in algorithms where it stays in its lane and works with, not agaisnt, an
+	explict symbolic method.
+	If your gradient method is sensitive to initalisation then perhaps you are misusing gradient methods.
+

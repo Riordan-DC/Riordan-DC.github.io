@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Powerful Graph Convolutional Networks"
+date:   2020-03-11 16:40:30 +1000
+categories: Thoughts
+---
+
+Talking points:
+	- How knowledege can be structured with a graph
+	- Graph Convolutional Networks and their comparison to CNNs
+	- The intersection of these two powerful ideas (Graph representation) and convolution
+	- Graph-rl
+	- How it works
+	

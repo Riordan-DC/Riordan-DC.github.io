@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Competing in the RoboTHOR Challenge"
+date:   2020-03-11 16:40:30 +1000
+categories: Thoughts
+---
+
+The Allen Institute for Artificial Intelligence is holding the RoboTHOR challenge in 2020.
+RoboTHOR challenges participants to build robots that can navigate an environment
+using only visual semantic information. RoboTHOR tests robots collection of simulated environments
+and 
+
+It's simple to get up and running provided you have an installation of Ubuntu
+and docker. Remember RobotTHOR has a collection of simulated environments to explore and
+requires an Nvidia 
+
+
+https://ai2thor.allenai.org/robothor/challenge/

@@ -10,6 +10,7 @@ Abstract: Symbolic and distributed AI methods are groups we find easy to allocat
 Any distributed system can be improved with symbols for control.
 
 Examples:
-* An autonomous vehicle. Commaai's George Hotz says we cant explain driving to a car, it must learn through driving itself. This is weak and rigid AI design. Imagine designing software 
+* An autonomous vehicle. Commaai's George Hotz says we cant explain driving to a car, it must learn through driving itself. This is weak and rigid AI design.
+Can we learn banking software? Of course. Can we change the parameters after training? with great difficulty. 
 
 because driving is a low level control task that operates in parallel with a dynamic rule based system. These rules vary by location but the low level control is the same everywhere.  This is true if any task consists of equally learnable and distinct sub-tasks. Unfortunantly the task of maintaining your lane is not a scaled down task of comprehending a sign and following its rules. 
