@@ -28,6 +28,20 @@ is an inconsistant method for coercing a large neural network to produce impress
 I believe Natural programming will operate as a symbolic algebra with learnt representations that will give us the ability to control any machine with the 
 same programming humans use. 
 
+## Translation techniques
+Sparsity? 
+
+## Slot filling & Intent detection
+Slot filling and intent detection classify and predict functions and arguments we define in language. For instance the phrase: "go to the kitchen"
+defines a function "go to" with arguments "kitchen" (goto(kitchen)). Slotfilling and intent detection works well for chatbots and virtual assistants.
+These disembodied systems reside in static environments and ultimately perform the task of translating natural language to a static API. Their
+environment interface has a one-to-one mapping with its natural language input. If a task requires multiple interactions then its interface will
+prompt a user with a branching question-answer list until every parameter for the function has been filled and the task can execute. For example:
+"Play song X" maps to the function call playSong(X). With underspecified intent: "play song" maps to playSong(whichSong()), where whichSong() is
+a request for the user to specify a song. With embodied agents almost every instruction requires multiple steps and extra specification because we
+rely on implicit information and environments are dynamic. If we imagine the question: "get me the fork" we can blindly map this to the grossly
+underspecified function getMe(fork). This function requires arguments 
+
 ### Reinforcement Learning Policy Gradient
 RL Policy Gradient methods struggle the higher up the heirarchy of control. 
 * Compounding dynamics
