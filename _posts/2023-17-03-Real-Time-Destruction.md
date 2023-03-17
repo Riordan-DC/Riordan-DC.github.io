@@ -8,7 +8,7 @@ categories: gamedevelopment
    margin-bottom: 20px;
    margin-top: 20px;
 ">
-<img src="/assets/images/mid_explosion.png" width="50%" height="50%">
+<img src="{{site.base_url}}/assets/images/mid_explosion.png" width="50%" height="50%">
 </div>
 
 Interaction in a virtual environment feels stiff when your push doesn't shove. Objects need to move when pushed and if pushed hard enough, break. Destruction gives a user an extra-sensory depth that encourages attention to the environment. The kind of destruction seen in games like Red Faction: Guerrilla and Rainbow 6 Seige inspires many players to ask "why isnt this in more games?". It's challenging and fascinating topic that I've spent a lot of time exploring. This post is a collection of my thoughts and experiments in real time destruction.
