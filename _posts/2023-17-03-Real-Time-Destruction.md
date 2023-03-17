@@ -8,7 +8,7 @@ categories: gamedevelopment
    margin-bottom: 20px;
    margin-top: 20px;
 ">
-<img src="{{site.baseurl}}/assets/images/mid_explosion.png" width="50%" height="50%">
+<img src="{{site.baseurl}}/assets/images/mid_explosion.PNG" width="50%" height="50%">
 </div>
 
 Interaction in a virtual environment feels stiff when your push doesn't shove. Objects need to move when pushed and if pushed hard enough, break. Destruction gives a user an extra-sensory depth that encourages attention to the environment. The kind of destruction seen in games like Red Faction: Guerrilla and Rainbow 6 Seige inspires many players to ask "why isnt this in more games?". It's challenging and fascinating topic that I've spent a lot of time exploring. This post is a collection of my thoughts and experiments in real time destruction.
@@ -47,7 +47,7 @@ I have experience with both pre-baked and procedural systems but not voxel.
 
 I like pre-baked system the most. I think it is the most general and art pipeline friendly. If you build a chair or desk or microwave you should leave the pieces you make the model from separate. If you build a single piece prop like a plate you can use a tool to fracture it procedurally. I use blender and use the cell fracture addon. When importing into the game engine each component in the model becomes a component which can break off.
 
-<img src="/assets/images/glue_structure_editor_2.png">
+<img src="/assets/images/glue_structure_editor_2.PNG">
 
 Figure 1. The above image shows a building asset. Each point is a component of the model which can break off. The green lines are the connections between them.
 
@@ -59,7 +59,7 @@ The real challenge is to preserve the sub-structures created in the break. This 
 
 |                       Before Impact                       |                        After Impact                        |
 | :-------------------------------------------------------: | :---------------------------------------------------------: |
-| <img src="/assets/images/glue_structure_in_game.png"> | <img src="/assets/images/glue_structure_in_game_2.png"> |
+| <img src="/assets/images/glue_structure_in_game.PNG"> | <img src="/assets/images/glue_structure_in_game_2.PNG"> |
 
 Figure 2. Blue are anchor points. Red are weaked points. Green a regular points. The purple point is the center of mass (CoM).
 
