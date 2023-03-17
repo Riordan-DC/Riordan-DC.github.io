@@ -17,11 +17,15 @@ Interaction in a virtual environment feels stiff when your push doesn't shove. O
 
 A destruction effect can be loosely grouped into one or more of the following types:
 
-1. Fracture
+<b>1. Fracture</b> <br/>
    Anything made up of smaller pieces fractures. In a way everything fractures and the scale of the fracture is what this system from the other two. In voxel engines every break is a fracture as everything is made up of the smaller, same sized, things.
-2. Cut
+   <br/>
+   <br/>
+<b>2. Cut</b> <br/>
    A cut is a unique piece of something. A cutter is a plane or any geometry that performs the cut. If simulating sharp objects a cut is required.
-3. Tear
+   <br/>
+   <br/>
+<b>3. Tear</b> <br/>
    Malleable materials like cloth, skin, and paper all break with a tear in simulation. A tear is like a fracture but with loose constraints between neighboring pieces.
 
 The groups loosely separate the way your simulation will be implemented to accommodate its functionality. This is why the tear type has its own group despite being similar to a fracture in definition, implementation varies.
