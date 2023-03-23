@@ -1,9 +1,23 @@
 Readme
-------
 
 command: to serve locally
 
 bundle exec jekyll serve
+
+### Starting a new post:
+
+Each post must have a title in the jekyll form: `2023-17-03-Real-Time-Destruction.md`
+
+Posts must begin with a header containing some meta data:
+
+```
+---
+layout: post
+title:  "How Games Simulate Destruction"
+date:   2023-03-17 10:05:00 +1000
+categories: gamedevelopment
+---
+```
 
 
 ### Issues:
