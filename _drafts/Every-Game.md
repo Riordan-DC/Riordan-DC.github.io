@@ -11,11 +11,10 @@ Every game needs:
 - interaction api
 - item api
 
-3d game
+fps game
 - debug 3d drawing
 - FX manager
 - physics contact sounds
 - physics contact effects
 - footsteps
 - doors and windows
-- 
